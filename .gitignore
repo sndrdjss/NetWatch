@@ -15,6 +15,7 @@ node_modules/
 dist/
 coverage/
 .vite/
+.npm-cache/
 
 # Local configuration and secrets
 .env

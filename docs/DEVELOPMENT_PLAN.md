@@ -12,7 +12,7 @@ Build a beginner-friendly network monitoring dashboard that demonstrates network
 
 **Done when:** `README.md`, `.gitignore`, and this plan are present and readable. Phase 1 was approved and completed.
 
-## Phase 2 — Simulated backend (current)
+## Phase 2 — Simulated backend (complete)
 
 - Create a small FastAPI application in `backend/` with in-memory snapshots; defer SQLite to a later milestone.
 - Define simulated devices and generate changing status, latency, uptime, and traffic values; no real network scans are needed for the MVP.
@@ -21,11 +21,12 @@ Build a beginner-friendly network monitoring dashboard that demonstrates network
 
 **Done when:** the API starts locally, returns all four device types with the required metrics, and its tests pass.
 
-## Phase 3 — Dashboard frontend
+## Phase 3 — Dashboard frontend (current)
 
 - Create a Vite/React application in `frontend/` using Tailwind CSS and Recharts.
 - Show device status and metrics in a readable dashboard, with traffic trends in a chart.
 - Include loading, empty, and API-error states so the UI remains understandable when data is unavailable.
+- Keep last successful readings visibly marked stale during disconnections; chart history contains only received snapshots.
 
 **Done when:** the frontend starts locally and displays the required metrics from the backend.
 
