@@ -4,17 +4,17 @@
 
 Build a beginner-friendly network monitoring dashboard that demonstrates networking concepts through simulated devices. The MVP will show routers, switches, servers, and computers with online/offline status, latency, uptime, and network traffic. Keep it practical for local development on Windows 11 with 8 GB of RAM.
 
-## Phase 1 — Foundation (current)
+## Phase 1 — Foundation (complete)
 
 - Document the MVP, technology choices, and proposed frontend/backend layout.
 - Add a `.gitignore` for local dependencies, generated files, secrets, and SQLite data.
 - Review the documentation and confirm the repository has no application code or installed dependencies from this phase.
 
-**Done when:** `README.md`, `.gitignore`, and this plan are present and readable. Stop here and wait for approval before Phase 2.
+**Done when:** `README.md`, `.gitignore`, and this plan are present and readable. Phase 1 was approved and completed.
 
-## Phase 2 — Simulated backend (requires approval)
+## Phase 2 — Simulated backend (current)
 
-- Create a small FastAPI application in `backend/` with SQLite storage.
+- Create a small FastAPI application in `backend/` with in-memory snapshots; defer SQLite to a later milestone.
 - Define simulated devices and generate changing status, latency, uptime, and traffic values; no real network scans are needed for the MVP.
 - Expose read-only endpoints for the device list and dashboard metrics, and document their response shapes.
 - Add focused backend tests for API responses and simulation behavior.
